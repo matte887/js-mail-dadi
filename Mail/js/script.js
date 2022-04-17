@@ -8,9 +8,9 @@ const authorizedMails = [
     'emmet.brown@bttf.com',
     'biff.tannen@bttf.com',
     'jennifer.parker@bttf.com'
-]
+];
 
-// Confrontare la mail dell'utente con ciascuna mail nell'array
+// Confrontare la mail dell'utente con ciascuna mail nell'array e stampare in console un messaggio adeguato
 for (let i = 0; i < authorizedMails.length; i++) {
     if (userMail === authorizedMails[i]) {
         console.log('Accesso consentito');
@@ -18,5 +18,3 @@ for (let i = 0; i < authorizedMails.length; i++) {
         console.log('Accesso negato');
     }
 }
-
-// Stampare in console un messaggio adeguato
