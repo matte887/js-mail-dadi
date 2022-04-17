@@ -9,6 +9,7 @@ const authorizedMails = [
     'biff.tannen@bttf.com',
     'jennifer.parker@bttf.com'
 ];
+console.log(authorizedMails);
 
 // Confrontare la mail dell'utente con ciascuna mail nell'array e stampare in console un messaggio adeguato
 for (let i = 0; i < authorizedMails.length; i++) {
