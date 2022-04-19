@@ -12,10 +12,17 @@ const authorizedMails = [
 console.log(authorizedMails);
 
 // Confrontare la mail dell'utente con ciascuna mail nell'array e stampare in console un messaggio adeguato
+let emailFound = false;
 for (let i = 0; i < authorizedMails.length; i++) {
     if (userMail === authorizedMails[i]) {
-        console.log('Accesso consentito');
-    } else {
-        console.log('Accesso negato');
+        emailFound = true;
     }
+}
+
+console.log(emailFound);
+
+if (emailFound) {
+    console.log("Accesso consentito");
+} else {
+    console.log("Accesso negato");
 }
