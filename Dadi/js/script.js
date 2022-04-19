@@ -18,3 +18,4 @@ if (pcDice > userDice) {
 }
 
 console.log(result);
+document.getElementById("risultato").innerHTML = result;
